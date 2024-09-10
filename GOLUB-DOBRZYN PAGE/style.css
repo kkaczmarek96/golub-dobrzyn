@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    border-bottom: 2px solid #000;
+}
+
+header .logo {
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 20px;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    margin-left: 50px;
+    gap:20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding:0px 20px;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+    
+
+}
+
+.navbar a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.miasto {
+
+    background-image: url(panorama.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+.miasto p {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.miastotext {
+    border: 4px solid #000; 
+    display: block;
+    position: relative;
+    top: 5%;
+    left: 10%;
+    width: 30%;
+    border-radius: 50px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color:#080404;
+    box-shadow: 0 0 10px hsl(0, 0%, 0%);
+}
+
+.informacje {
+    height: 100vh;
+    background-image: url(tlo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.informacje p {
+    padding: 30px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+    padding: 20px 20px;
+    width: 35%;  
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 10px hsl(0, 0%, 0%);
+    position: relative;
+    top:5%;
+    left: 5%;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color:#fff;
+}
+
+
+.informacje iframe {
+    position: absolute;
+    left: 60%;
+    top: 165%;
+    box-shadow: 0 0 10px hsl(0, 0%, 0%);
+    border-radius: 20px;
+    width: 35%;
+    height: 40%;
+}
+
+.historia {
+    height: 100vh;
+    padding: 20px;
+    background-image: url(panoramagolub.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+
+.golubtext {
+    width: 50%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 10px hsl(0, 0%, 0%);
+    text-decoration: none;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color:#fff;
+    padding: 20px 30px;
+    text-align: justify;
+    position:absolute;
+    left: 63%;
+    margin-top: 380px;
+    font-size: 13px;
+    width: 35%;
+    font-weight: 500px;
+}
+
+.listagolub p {
+    font-size: 18px;
+}
+
+
+.dobrzyntext {
+    width: 50%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 10px hsl(0, 0%, 0%);
+    text-decoration: none;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color:#fff;
+    padding: 20px 30px;
+    text-align: justify;
+    position:absolute;
+    left: 2%;
+    margin-top: -47%;
+    font-size: 13px;
+    width: 35%;
+    font-weight: 500px;
+}
+
+.listadobrzyn p {
+    font-size: 15px;
+}
+
+.zabytki {
+    height: 100vh;
+    display: inline-flex;
+    align-items: center;
+    padding: 20px 20px;
+    gap:20px;
+    background-image: url(tlo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+
+
+.zamek {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px hsl(0, 0%, 0%);
+    padding: 20px 20px;
+    text-align: justify;
+    width: 33%;
+    height: 80%;
+    font-weight: 500px;
+    font-size: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color:#fff
+}
+
+.zamek img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    margin-top: 50px;;
+}
+
+.zamek img:hover {
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+.kosciol {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px hsl(0, 0%, 0%);
+    padding: 20px 20px;
+    text-align: justify;
+    width: 33%;
+    height: 80%;
+    font-weight: 500px;
+    font-size: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color:#fff
+    
+
+}
+
+.kosciol img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    margin-top: 71px;;
+}
+
+.kosciol img:hover {
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+.kosciol2 {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px hsl(0, 0%, 0%);
+    padding: 20px 20px;
+    text-align: justify;
+    width: 33%;
+    height: 80%;
+    font-weight: 500px;
+    font-size: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color:#fff
+}
+
+.kosciol2 img {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    margin-top: 22px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.kosciol2 img:hover {
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #000;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        display: none;
+    }
+    .miasto {
+        width: 100%;
+        
+    }
+
+   .miasto p {
+    font-size: 15px;
+    
+   }
+   .miastotext {
+    width: 80%;
+   }
+
+   .informacje {
+    height: 100vh;
+    
+   }
+
+   .informacje p {
+    width: 90%;
+    font-size: 11px;
+   }
+
+   .informacje iframe {
+    height: 30%;
+    width: 100%;
+    left:0;
+    top:1500px;
+    
+   }    
+
+   .histiora {
+    display: column;
+    align-items: column;
+    height: 150vh;
+    
+   }
+
+   .golubtext {
+    width: 100%;
+    font-size: 10px;
+    left:0;
+    top: 1380px;
+   
+   }
+
+   .dobrzyntext {
+    width: 100%;
+    font-size: 11px; 
+    left:0;
+    top: 2450px;
+
+
+   }
+   .zabytki {
+    flex-direction: column;
+   }
+   
+   .zamek {
+    width: 100%;
+    font-size: 10px;
+    height:30%;
+   }
+   .kosciol{
+    width: 100%;
+    height: 30%;
+    font-size: 10px;
+    
+   }
+
+   .kosciol2 {
+    width: 100%;
+    height: 30%;
+    font-size: 10px;
+   }
+   .koscoiol2 img {
+    width: 10%;
+   }
+
+   .zabytki img {
+    height: 30%;
+   
+    font-size: 10px;
+   }
+
+
+.footer {
+
+    font-size: 10px;
+}
+
+}
